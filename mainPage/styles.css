@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 80px; /* Adjust padding here to increase white area */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px; /* Adjust the max-width to fit buttons */
+  width: 100%;
+  text-align: center;
+}
+
+.btn-container {
+  margin-bottom: 20px;
+  display: flex; /* Make the container flex to show buttons side by side */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.btn {
+  padding: 5% 10%; /* Adjust padding to increase button height */
+  margin: 0 10px; /* Adjust margin to create space between buttons */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px; /* Adjust font size to make the buttons smaller */
+  cursor: pointer;
+  width: 45%; /* Adjust width to make both buttons the same width */
+}
+
+.btn-login {
+  background-color: #28A745;
+  color: #fff;
+}
+
+.btn-signup {
+  background-color: #DC3545;
+  color: #fff;
+}
+
+
+.btn-login:hover {
+  background-color: #218838; /* Darken the color when hovered */
+}
+
+.btn-signup:hover {
+  background-color: #C82333; /* Darken the color when hovered */
+}
+
+
+.btn-text {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.message-container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}

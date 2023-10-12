@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="btn-container">
+      <button class="btn btn-login" onclick="redirectToLogin()" onmouseover="displayMessage(this, 'Click if you have already registered with us')" onmouseout="clearMessage()">Log In</button>
+      <button class="btn btn-signup" onclick="redirectToSignup()" onmouseover="displayMessage(this, 'Click if you are a new user')" onmouseout="clearMessage()">New User</button>
+    </div>
+  </div>
+  <div class="message-container" id="message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

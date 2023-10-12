@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Application Form</title>
+</head>
+<body>
+  <div class="header">
+    <h2>Application Form</h2>
+  </div>
+  
+
+  <div class="container">
+    <form id="personalInfoForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name"><br><br>
+      
+      <label for="middleName">Middle Name:</label>
+      <input type="text" id="middleName" name="middleName" placeholder="Enter your middle name"><br><br>
+      
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name"><br><br>
+      
+      <label for="fatherName">Father's Name:</label>
+      <input type="text" id="fatherName" name="fatherName" required placeholder="Enter your father's name"><br><br>
+      
+      <label for="motherName">Mother's Name:</label>
+      <input type="text" id="motherName" name="motherName" required placeholder="Enter your mother's name"><br><br>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+      
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required placeholder="Enter your phone number (10 digits)"><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+      
+      <div class="upload">
+        <label for="fileUpload">Choose File</label>
+        <input type="file" id="fileUpload" name="fileUpload">
+        <span id="fileLabel">No file chosen</span>
+      </div>
+
+      <div class="centerContainer">
+        <button type="submit" class="submitBtn">Submit</button>
+        <button type="reset" class="resetBtn">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
